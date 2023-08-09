@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Viktorija Karnakova</title>
 </head>
 
-<body>
+<body class="parallax">
     <header>
         <h1>Frontend-developer</h1>
-        <div class="nav">
+        <div class="nav" id="myTopnav">
             <a href="#about_me">About me</a>
-            <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#hobbies">Hobbies</a>
             <a href="#contacts">Contacts</a>
             <a href="Viktorija Karnakova CV.pdf" download style="text-decoration: none; background-color: #1C83B0; position: relative; color:#E8F9F2">Download CV</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
         </div>
     </header>
 
@@ -26,17 +29,17 @@
         <p>I'm a beginner frontend developer, and I will be happy to create a website for you!</p>
 
     </div>
-    <div class="parallax">
         <div class="content">
             <section id="about_me">
                 <div class="about_me-wrapper">
                 <div class="foto-panel-wrapper">
                     <div class="foto-panel">
-                        <div class="foto"><img width="260" src="photo_2023-04-27_12-26-19.jpg"></div>
+                        <div class="foto"><img src="photo_2023-04-27_12-26-19.jpg"></div>
                         <div class="contact">
+                            <a href="mailto:vkarnak2002@gmail.com"><img width="35" src="Gmail_Logo_512px.png" ></a>
                             <a href="https://www.instagram.com/angry_penguin_tkd/"><img width="30" src="Instagram-Icon.png"></a>
                             <a href="https://t.me/angry_penguin_tkd"><img width="30" src="Telegram_logo.svg.png"></a>
-                            <a href="https://www.linkedin.com/in/viktorija-karnakova-424b79284/"><img width="30" src="LinkedIn_logo_initials.png"></a>
+                            <a href="https://www.linkedin.com/in/viktorija-karnakova-424b79284/"><img width="30" src="LinkedIn_logo_initials.png" ></a>
                             <a href="https://github.com/vkarnak"><img width="30" src="Octicons-mark-github.svg.png"></a>
                         </div>
         
@@ -47,44 +50,49 @@
                 <h3>About me</h3>
                 <p1>My name is Viktorija, I am student from Latvia (Riga), I study Computer Science. 
                     I'm interested of Frontend-development and I want help you and create website.</p1>
-                </div>
-                </div>
-                </div>
-            </section>
 
-                <section id="skills">
-                    <div class="column-wrapper">
-                        <div class="education-panel-wrapper">
-                            <div class="education">
-                    <p2><ul><u>Education:</u></p2>
-                    <li>Riga Secondary School 88<br><span class="test">(Test grades: Math: 47%; English: 67%)</span></li>
-                    <li><abbr title="Transport and Telecommunication Institute">TSI</abbr>: Bachelor in Computer Science</li>
+                </div>
+
+    <div class="skills">
+                <div class="column-wrapper">
+                    <div class="education-panel-wrapper">
+                        <div class="dropdown">
+                            <button class="dropbtn">Education</button>
+                            <div class="dropdown-content">
+                <li>Riga Secondary School 88<br><span class="test">(Test grades: Math: 47%; English: 67%)</span></li>
+                <li><abbr title="Transport and Telecommunication Institute">TSI</abbr>: Bachelor in Computer Science</li>
+             </div>
+          </div>
+         </div>
+            <div class="skills-panel-wrapper">
+                <div class="dropdown">
+                <button class="dropbtn">Skills</button>
+                <div class="dropdown-content">
+                    <li>HTML: Middle level</li>
+                    <li>CSS: Middle level</li>
+                    <li>JavaScript: Beginner level</li>
+                    <li>C++: Middle level</li>
                 </ul>
                 </div>
-                </div>
-
-                <div class="skills-panel-wrapper">
-                    <div class="skill">
-                    <p2><ul><u>Skills:</u></p2>
-                        <li>HTML: Middle level</li>
-                        <li>CSS: Middle level</li>
-                        <li>JavaScript: Beginner level</li>
-                        <li>C++: Middle level</li>
-                    </ul>
-                    </div>
-                </div>
-
-                <div class="work-panel-wrapper">
-                    <div class="work">
-                    <p2><ul><u>Programms:</u></p2>
-                        <li>Visual Studio</li>
-                        <li>Visual Studio Code</li>
-                    </ul>
-                    </dl>
             </div>
+        </div>
+            <div class="work-panel-wrapper">
+                <div class="dropdown">
+                <button class="dropbtn">Programms</button>
+                <div class="dropdown-content">
+                    <li>Visual Studio</li>
+                    <li>Visual Studio Code</li>
+                </ul>
+        </div>
+        </div>
             </div>
-                    </div>
-                </section>
+                </div>
+            </div>
+                </div>
+                </div>
+                
+            </section>
+
 
             <section id="projects">
                 <h3>Projects</h3>
@@ -119,7 +127,6 @@
                 <br>
                     <p4>Most liked Harry Potter</p4>
         </div>
-        </div>
                 </div>
 
                 </ul>
@@ -128,13 +135,15 @@
         <footer>
             <section id="contacts">
                 <h5>Contacts</h5>
+
                 <div class="info">
-                    <p>Phone: <a href="tel:+37128475274" style="text-decoration: none; color: black;">+37128475274</a><br>
-                        Email: <a href="mailto:vkarnak2002@gmail.com" style="text-decoration: none; color: black;">vkarnak2002@gmail.com</a>
+
+                    <p>&#128241; <a href="tel:+37128475274" style="text-decoration: none; color: black;">+37128475274</a><br>
+                        &#128386; <a href="mailto:vkarnak2002@gmail.com" style="text-decoration: none; color: black;">vkarnak2002@gmail.com</a>
                     </p>
-                    <a href="https://www.instagram.com/angry_penguin_tkd/"><img width="30" src="Instagram-Icon.png"></a>
-                    <a href="https://t.me/angry_penguin_tkd"><img width="30" src="Telegram_logo.svg.png"></a>
-                    <a href="https://www.linkedin.com/in/viktorija-karnakova-424b79284/"><img width="30" src="LinkedIn_logo_initials.png"></a>
+                    <a href="https://www.instagram.com/angry_penguin_tkd/"><img width="30" src="Instagram-Icon.png" style="padding-right: 1% ;"></a>
+                    <a href="https://t.me/angry_penguin_tkd"><img width="30" src="Telegram_logo.svg.png" style="padding-right: 1% ;"></a>
+                    <a href="https://www.linkedin.com/in/viktorija-karnakova-424b79284/"><img width="30" src="LinkedIn_logo_initials.png" style="padding-right: 1% ;"></a>
                     <a href="https://github.com/vkarnak"><img width="30" src="Octicons-mark-github.svg.png"></a>
                 </div>
             </section>
