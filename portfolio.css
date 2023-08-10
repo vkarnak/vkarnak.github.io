@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .parallax{
 background-image: url("https://images.pexels.com/photos/3075993/pexels-photo-3075993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
 background-attachment: fixed;
@@ -134,8 +138,8 @@ section{
     margin-top: 15%;
     padding-bottom: 2%;
     padding-top: 1%;
-    padding-left: 5%;
-    border-radius: 12px;
+    padding-left: 3%;
+    border-radius: 15px;
     background: #318eb7;
 }
 
@@ -215,6 +219,11 @@ h3, h4, h5{
     min-width: 180px;
     z-index: 1;
 }
+
+.dropdown-content a {
+    display: block;
+}
+
 
 .dropdown-content a:hover {background-color: #f1f1f1}
 
@@ -336,7 +345,9 @@ p3{
 .info{
     background-color: aliceblue;
     border-radius: 45px;
-    padding: 3%;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     margin-right: 1%;
     box-shadow: 0 18px 25px rgba(13, 255, 0, 0.1);
 
