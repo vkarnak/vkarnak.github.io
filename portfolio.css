@@ -96,10 +96,10 @@ body{
     justify-content: space-between;
 }
 
-.foto-panel-wrapper {width: 350px;}
+.foto-panel-wrapper {width: 30%;}
 
 .content-wrapper {
-    width: 66.6%; 
+    width: 70%; 
     padding: 30px;
 }
 
