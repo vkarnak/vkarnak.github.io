@@ -26,8 +26,9 @@ background-size: cover;
 }
 .blend p{
     font-style: italic;
+    padding-top: 40%;
     text-align: left;
-    font-size: 22px;
+    font-size: 35px;
     text-shadow: 1px 0 10px rgb(255, 255, 255);
     mix-blend-mode: hard-light;
 }
